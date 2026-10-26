@@ -1,0 +1,7 @@
+1
+00:00:02,770 --> 00:00:03,850
+Sono un bravo cacciatore.
+
+2
+00:00:04,590 --> 00:00:06,510
+Posso ucciderli a mani nude.

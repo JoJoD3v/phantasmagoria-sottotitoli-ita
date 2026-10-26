@@ -1,0 +1,7 @@
+1
+00:00:05,100 --> 00:00:06,740
+Quando sarà pronto il catalogo fotografico?
+
+2
+00:00:07,080 --> 00:00:10,540
+Oh, probabilmente altri due, tre giorni.

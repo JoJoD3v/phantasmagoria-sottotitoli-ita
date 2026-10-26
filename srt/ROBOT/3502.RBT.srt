@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:00,740
+Sapevo che ti sarebbero piaciuti.
+
+2
+00:00:01,600 --> 00:00:03,640
+Facciamo così, ti faccio una lettura.
+
+3
+00:00:03,780 --> 00:00:04,920
+Oh no, non serve.
+
+4
+00:00:05,080 --> 00:00:07,360
+Non adesso, domani. Ti faccio una lettura domani.
+
+5
+00:00:07,860 --> 00:00:10,360
+Be', forse. Vedremo.

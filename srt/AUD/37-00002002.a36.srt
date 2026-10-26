@@ -1,0 +1,7 @@
+1
+00:00:00,000 --> 00:00:04,975
+Ora che sei pronta a giocare in tutta la sua cruenza,
+
+2
+00:00:05,960 --> 00:00:07,840
+inserisci di nuovo la tua password segreta.

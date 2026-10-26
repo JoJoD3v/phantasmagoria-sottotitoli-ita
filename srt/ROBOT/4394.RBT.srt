@@ -1,0 +1,7 @@
+1
+00:00:04,820 --> 00:00:06,640
+Ciao, Cyrus. Che fai?
+
+2
+00:00:06,780 --> 00:00:10,360
+Ehm, mamma mi ha detto di spaccarvi la legna.

@@ -1,0 +1,23 @@
+1
+00:00:00,530 --> 00:00:04,010
+Sa, questa è una piccola città. Non abbiamo molti visitatori.
+
+2
+00:00:04,770 --> 00:00:05,830
+È nuova di qui?
+
+3
+00:00:06,450 --> 00:00:09,030
+Sì, io e mio marito abbiamo appena comprato la vecchia tenuta Carnovasch.
+
+4
+00:00:09,690 --> 00:00:11,170
+La stiamo ristrutturando un po'.
+
+5
+00:00:12,750 --> 00:00:13,950
+La tenuta Carnovasch?
+
+6
+00:00:15,310 --> 00:00:16,950
+Allora siete voi quelli che si sono trasferiti lì?

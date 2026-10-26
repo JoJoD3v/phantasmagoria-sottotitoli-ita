@@ -1,0 +1,11 @@
+1
+00:00:03,500 --> 00:00:04,520
+Credo sia meglio che se ne vada.
+
+2
+00:00:04,920 --> 00:00:05,420
+Non
+
+3
+00:00:15,990 --> 00:00:17,090
+dirmi mai di stare zitto.

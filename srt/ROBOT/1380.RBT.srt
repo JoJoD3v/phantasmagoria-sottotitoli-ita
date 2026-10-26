@@ -1,0 +1,7 @@
+1
+00:00:02,450 --> 00:00:04,230
+Aspetta, credevo di aver spento il computer.
+
+2
+00:00:08,950 --> 00:00:09,730
+Evidentemente no.

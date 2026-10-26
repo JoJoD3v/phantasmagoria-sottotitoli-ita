@@ -1,0 +1,7 @@
+1
+00:00:01,550 --> 00:00:03,830
+Sto finendo questo lavoro. Me ne vado di qui il prima
+
+2
+00:00:03,830 --> 00:00:04,330
+possibile.

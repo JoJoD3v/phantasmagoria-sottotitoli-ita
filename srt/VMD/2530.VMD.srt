@@ -1,0 +1,7 @@
+1
+00:00:03,470 --> 00:00:05,370
+Posso farlo?
+
+2
+00:00:09,600 --> 00:00:14,425
+Hoc batem superfascinum et cantate hoc incantation.

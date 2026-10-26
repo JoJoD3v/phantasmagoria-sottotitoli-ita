@@ -1,0 +1,15 @@
+1
+00:00:00,880 --> 00:00:03,380
+Ehm, Bob, devo chiederti una cosa.
+
+2
+00:00:05,220 --> 00:00:05,740
+Spara.
+
+3
+00:00:06,740 --> 00:00:10,160
+Tutti in città sembrano convinti che la tenuta dei Carnovasch sia infestata.
+
+4
+00:00:10,780 --> 00:00:12,160
+Perché non ce l'ha detto?

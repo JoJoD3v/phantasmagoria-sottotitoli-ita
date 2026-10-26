@@ -1,0 +1,42 @@
+[
+{
+"start": 0.02,
+"end": 0.64,
+"text": "Hi."
+},
+{
+"start": 0.92,
+"end": 1.4,
+"text": "Hello."
+},
+{
+"start": 2.22,
+"end": 3.38,
+"text": "See anything you like?"
+},
+{
+"start": 3.72,
+"end": 5.12,
+"text": "Oh, I'm just looking, thanks."
+},
+{
+"start": 5.4,
+"end": 6.64,
+"text": "Take your time, dear."
+},
+{
+"start": 7.28,
+"end": 8.96,
+"text": "I'll be here if you have any questions."
+},
+{
+"start": 9.26,
+"end": 9.58,
+"text": "Okay."
+},
+{
+"start": 10.06,
+"end": 10.54,
+"text": "Thanks."
+}
+]

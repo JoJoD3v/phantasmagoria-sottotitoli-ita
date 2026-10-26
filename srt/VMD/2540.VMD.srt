@@ -1,0 +1,11 @@
+1
+00:00:03,660 --> 00:00:04,780
+Posso farlo?
+
+2
+00:00:07,340 --> 00:00:11,865
+Hoc batum super fascinum et cantate hoc carmen.
+
+3
+00:01:01,140 --> 00:01:07,240
+Benedite l'oggetto sopra il talismano e recitate questo incantesimo.

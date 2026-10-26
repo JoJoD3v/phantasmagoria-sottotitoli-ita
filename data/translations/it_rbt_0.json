@@ -1,0 +1,629 @@
+{
+ "380": [
+  ""
+ ],
+ "420": [
+  "Dannazione, è chiusa a chiave."
+ ],
+ "490": [
+  "Ehi, Spaz.",
+  "Come va, micio?",
+  "Ti stai abituando alla nuova casa, eh?"
+ ],
+ "491": [
+  "Ehi Spaz. Come",
+  "va, micio?",
+  "Beh, devo andare.",
+  "A dopo."
+ ],
+ "500": [
+  "Che diavolo era?"
+ ],
+ "501": [
+  "Bene, un gettone.",
+  "Lo proverò."
+ ],
+ "506": [
+  "Oh, un altro gettone."
+ ],
+ "550": [
+  "Là sotto non si vede niente."
+ ],
+ "570": [
+  "Oh, è pieno di polvere.",
+  "È vuoto."
+ ],
+ "580": [
+  "È buono."
+ ],
+ "610": [
+  "C'è qualcuno?"
+ ],
+ "620": [
+  ""
+ ],
+ "843": [
+  "L'anello. È",
+  "sparito. Chi",
+  "può averlo preso?"
+ ],
+ "906": [
+  ""
+ ],
+ "909": [
+  ""
+ ],
+ "1000": [
+  ""
+ ],
+ "1011": [
+  "Questi vecchi tubi sono proprio intasati.",
+  "Posso fare qualcosa?",
+  "Sì, passami quella chiave inglese."
+ ],
+ "1014": [
+  "Dio, stai bene?",
+  "Sì, mi è scivolato il cacciavite. Maledetto scarico.",
+  "Fammi vedere.",
+  "Sto bene, davvero.",
+  "Sai cosa mi servirebbe? Del disgorgante. Ce l'abbiamo?",
+  "Non credo."
+ ],
+ "1015": [
+  "Ehi, tesoro."
+ ],
+ "1021": [
+  "Quando sarà pronto il catalogo fotografico?",
+  "Oh, probabilmente altri due, tre giorni."
+ ],
+ "1030": [
+  "Ho finito.",
+  "Adrienne, tesoro, mi lasci lavorare, per favore?"
+ ],
+ "1040": [
+  "Non sembra lunga."
+ ],
+ "1041": [
+  "Grazie."
+ ],
+ "1061": [
+  "Adrienne, attenta. Quella lampada non è ancora fissata.",
+  "Oh, scusa."
+ ],
+ "1080": [
+  "Fatto."
+ ],
+ "1084": [
+  "Sto solo guardando i miei progetti, cercando di capire il modo migliore",
+  "per farlo.",
+  "Wow, hai fatto parecchio.",
+  "Sì, procede bene.",
+  "Volevi qualcosa, tesoro?",
+  "No, volevo solo vedere come te la cavavi."
+ ],
+ "1091": [
+  "Adrienne, posso farlo meglio da solo, per favore?",
+  "Va bene, accidenti.",
+  "Scusa, cara. Sto solo cercando di finire.",
+  "Certo, va bene. Fai come vuoi."
+ ],
+ "1101": [
+  "Che schifo.",
+  "Il lavandino è ancora intasato?",
+  "Sì.",
+  "Ci lavorerò di nuovo più tardi.",
+  "Okay, ma dimmi se posso aiutarti.",
+  "Grazie."
+ ],
+ "1110": [
+  "Ehi, tesoro."
+ ],
+ "1111": [
+  "Ciao",
+  "tesoro. Scusa.",
+  "Stai bene? Sì. Mi hai spaventato.",
+  "Sto ancora lavorando a questo stupido scarico. Forse è meglio che",
+  "smetta prima di fare altri danni."
+ ],
+ "1120": [
+  "Don?"
+ ],
+ "1130": [
+  "Ahi!"
+ ],
+ "1183": [
+  "Ma guarda, c'è una chiave infilata nella serratura."
+ ],
+ "1190": [
+  "C'è una chiave infilata nella serratura."
+ ],
+ "1221": [
+  "Dio, cos'è questo?"
+ ],
+ "1261": [
+  "Cavolo."
+ ],
+ "1311": [
+  "Cos'è questa cosa?"
+ ],
+ "1380": [
+  "Aspetta, credevo di aver spento il computer.",
+  "Evidentemente no."
+ ],
+ "1400": [
+  "Ehi, tesoro. Ti riposi?",
+  "Sì. Mi si è bloccata la schiena montando quella mensola, così",
+  "ho pensato di riposare un po'.",
+  "Okay. Goditi il libro."
+ ],
+ "1530": [
+  "Don.",
+  "Sono occupato adesso, Adrienne.",
+  "Oh, scusa."
+ ],
+ "1551": [
+  "Come va?",
+  "Bene.",
+  "Il mio unico vero problema è questo scarico.",
+  "Ancora intasato?",
+  "Sì."
+ ],
+ "1605": [
+  "Oh, ormai è troppo tardi per andare in città. Sarà tutto chiuso."
+ ],
+ "1610": [
+  "Troppo lontano per andare a piedi in città. Meglio prendere l'auto."
+ ],
+ "1690": [
+  "È troppo lontano. Sarebbe un salto lungo."
+ ],
+ "1740": [
+  "Ehi, bello.",
+  "Che bravo cagnolone."
+ ],
+ "1802": [
+  "Bene, salve, signorina.",
+  "Cosa posso fare per lei?",
+  "Sì, lei è Bob Tompkins?",
+  "L'ultima volta che ho controllato, sì.",
+  "Mio marito ha comprato una casa da lei.",
+  "Peccato che abbia un marito, tesoro.",
+  "Su, si accomodi.",
+  "Con piacere.",
+  "Ehm,",
+  "come si chiama?",
+  "Stronzo.",
+  "Cosa",
+  "ha detto?"
+ ],
+ "1803": [
+  "Gordon, Donald Gordon."
+ ],
+ "1804": [
+  "Gordon.",
+  "Gibson, Gleeson.",
+  "Gordon. Donald Gordon. Eccolo.",
+  "Oh,",
+  "chi sono quelli che hanno preso la vecchia tenuta Caravash?",
+  "Carnovasch."
+ ],
+ "1808": [
+  "Ora ricordo. Suo marito era quel fotografo. Che tipo di foto",
+  "faceva per quelle riviste?",
+  "Sì.",
+  "Mio marito lavora per diverse riviste.",
+  "Adesso sta facendo un progetto per Newsday.",
+  "E lei, signorina, è una scrittrice, eh?",
+  "Sono una romanziera.",
+  "Oh, una romanziera.",
+  "E cosa ha romanzato?",
+  "Ha mai sentito di un libro intitolato Blue Moon Rising?",
+  "No, non direi.",
+  "Non mi sorprende.",
+  "Beh, signorina, a meno che non ci sia altro,",
+  "direi di chiudere qui le chiacchiere per oggi."
+ ],
+ "1809": [
+  "Ho molto lavoro da fare. Devo vedere un altro cliente.",
+  "",
+  "Me lo immagino.",
+  "Beh, grazie."
+ ],
+ "1810": [
+  "C'è una cosa.",
+  "Sì?",
+  "Le chiavi.",
+  "È sicuro di aver dato a mio marito tutte le chiavi della tenuta",
+  "Carnovasch?",
+  "Ci sono delle porte chiuse a chiave.",
+  "Gli ho dato tutto quello che avevo.",
+  "Ma se non mi crede, perché non controlla di persona?",
+  "Beh, credo che lo farò."
+ ],
+ "1821": [
+  "Aha,",
+  "tenuta Carnovasch.",
+  "Tutte le chiavi, eh? E questa cos'è?",
+  "È una chiave molto grande. E allora?",
+  "Mi denunci!"
+ ],
+ "1870": [
+  ""
+ ],
+ "1880": [
+  "Ehm.",
+  "Sì?",
+  "Ehm, le chiavi.",
+  "È sicuro di aver dato a mio marito tutte le chiavi della tenuta",
+  "Carnovasch?",
+  "Ho notato delle porte chiuse a chiave.",
+  "Gli ho dato tutto quello che avevo.",
+  "Ma se non mi crede, perché non va a controllare",
+  "di persona?",
+  "Beh, credo che lo farò.",
+  "Sì, credo che lo farò."
+ ],
+ "1890": [
+  "Sì?",
+  "Posso comunque cercare altre chiavi nel vostro schedario?",
+  "Cerchi pure da sola.",
+  "Grazie."
+ ],
+ "1900": [
+  "E adesso?"
+ ],
+ "1901": [
+  "Niente.",
+  "Do solo un'occhiata."
+ ],
+ "1902": [
+  "Sì."
+ ],
+ "1940": [
+  "Bravo cagnolino. Bravo cane. Bravo ragazzo."
+ ],
+ "2030": [
+  "Presagi del male.",
+  "Me l'ha fatto fare il diavolo.",
+  "Questo tizio aveva gusti strani.",
+  "Il culto degli animali.",
+  "Segreti dei morti."
+ ],
+ "2051": [
+  "Che diavolo?"
+ ],
+ "2080": [
+  "Accidenti, non funziona."
+ ],
+ "2090": [
+  "No, il martello farebbe un disastro."
+ ],
+ "2152": [
+  "Oh wow, guarda qui.",
+  "Dev'essere l'albero genealogico di Carno."
+ ],
+ "2154": [
+  "Oh wow, guarda qui.",
+  "Dev'essere l'albero genealogico di Carno."
+ ],
+ "2179": [
+  "Che diavolo?"
+ ],
+ "2193": [
+  "È un libro antico.",
+  "Cosa sono tutti questi strani simboli? Sembra",
+  "latino.",
+  "È passato un sacco di tempo dall'ora di latino."
+ ],
+ "2220": [
+  "Non so che farmene di questo libro.",
+  "Per ora lo lascio qui."
+ ],
+ "2230": [
+  "Qui è un posto sicuro.",
+  "Lo lascio qui."
+ ],
+ "2310": [
+  "Grazie."
+ ],
+ "2360": [
+  "Don, sei lì dentro?",
+  "Sì.",
+  "Cosa stai facendo là dentro?",
+  "Niente. Ora vattene."
+ ],
+ "2361": [
+  "Aspetta!",
+  "Non capisco. Ho fatto qualcosa di sbagliato?"
+ ],
+ "2362": [
+  "Niente più del solito, Adrienne. Ora fa' la brava bambina e",
+  "vattene!"
+ ],
+ "2370": [
+  "Don!"
+ ],
+ "2390": [
+  "Che musica è?",
+  "Da dove viene?"
+ ],
+ "2410": [
+  "Hmm, che strano."
+ ],
+ "2480": [
+  "Ehilà?",
+  "C'è qualcuno?"
+ ],
+ "2510": [
+  "Ehilà?"
+ ],
+ "2520": [
+  "Mi",
+  "hai spaventata.",
+  "Non sei un bravo micio.",
+  "Non farlo."
+ ],
+ "2521": [
+  "Spaz."
+ ],
+ "2572": [
+  "Don, non spaventarmi così.",
+  "Cerco solo di tenerti all'erta, Adrienne.",
+  "Non si sa mai chi gira di soppiatto per questo posto.",
+  "Girare di soppiatto come te?",
+  "Non io, Adrienne."
+ ],
+ "2573": [
+  "Non vedi? Non siamo soli su quest'isola.",
+  "Saranno solo dei vagabondi. Dubito che siano ancora",
+  "qui.",
+  "Meglio per loro, perché se li becco in giro qui..."
+ ],
+ "2574": [
+  "Don, no.",
+  "Dai, tesoro. Probabilmente se ne sono andati.",
+  "Tanto abbiamo sempre il nostro fido gatto da guardia.",
+  "Sì, certo."
+ ],
+ "2580": [
+  "Don?",
+  "Sì?",
+  "Ho una cosa da darti.",
+  "Che cos'è?"
+ ],
+ "2581": [
+  "Ho del lavoro da fare."
+ ],
+ "2620": [
+  "Uhm, vediamo. Cos'era?",
+  "Beh, finché non decidi, io ho del lavoro da fare.",
+  "E non voglio che tu gironzoli qui fuori, Adrienne.",
+  "Voglio che resti su in casa."
+ ],
+ "2630": [
+  "Don?",
+  "Sì?",
+  "Dov'è il disgorgante che mi hai chiesto?",
+  "Era ora.",
+  "Ho del lavoro da fare.",
+  "E non voglio che tu gironzoli qui fuori, Adrienne.",
+  "Voglio che resti su in casa."
+ ],
+ "2640": [
+  "Don. Sì.",
+  "Io.",
+  "No, non è questo.",
+  "Lascia perdere. Beh, finché non decidi, io ho del lavoro da fare. E",
+  "non voglio che tu gironzoli qui fuori, Adrienne. Voglio che",
+  "resti su in casa."
+ ],
+ "2650": [
+  "Ho del lavoro da fare, e non voglio che tu gironzoli qui fuori.",
+  "Voglio che resti su in casa."
+ ],
+ "2710": [
+  "Grazie.",
+  "Buongiorno.",
+  "Buongiorno."
+ ],
+ "2720": [
+  "Fanno 2 dollari esatti.",
+  "Grazie.",
+  "Torni a trovarci."
+ ],
+ "2730": [
+  "Salve.",
+  "Oh, come va?",
+  "Le do 1,99.",
+  "Okay.",
+  "Ho un due.",
+  "Ho un centesimo proprio qui in cassa.",
+  "Uh.",
+  "Le serve un sacchetto?",
+  "No, va bene così.",
+  "Oh, perfetto.",
+  "Lo prendo così.",
+  "Grazie."
+ ],
+ "2780": [
+  "No, prima dovrei davvero comprare del disgorgante."
+ ],
+ "2791": [
+  "Signore, ha qualcosa per liberare uno scarico molto intasato?",
+  "Sa, un disgorgante?",
+  "Un disgorgante, eh? Vediamo. Fammi pensare.",
+  "Questo farà al caso suo."
+ ],
+ "2792": [
+  "Ma stia attenta, però. È acido solforico.",
+  "Voglio dire, brucia praticamente qualsiasi cosa.",
+  "Lo so. Non si preoccupi.",
+  "Va bene. Allora sono 4,75, prego."
+ ],
+ "2793": [
+  "Bene, allora sono 4,75, prego."
+ ],
+ "2799": [
+  "Sì, sono interessata ad acquistare quel flacone di disgorgante."
+ ],
+ "2800": [
+  "Oh, ho dimenticato di portare i soldi.",
+  "Beh, stasera siamo aperti fino alle 5:30."
+ ],
+ "2810": [
+  "Beh, immagino che non le interessi.",
+  "Mi faccia sapere se cambia idea."
+ ],
+ "2812": [
+  "Questo farà al caso suo."
+ ],
+ "2820": [
+  "Signore, quanto costava quel disgorgante?"
+ ],
+ "2821": [
+  "Oh, credo fosse 4,75."
+ ],
+ "2822": [
+  "Okay, grazie."
+ ],
+ "2840": [
+  "Ecco cinque.",
+  "Va bene, da cinque."
+ ],
+ "2841": [
+  "E 25 centesimi di resto.",
+  "Grazie."
+ ],
+ "2843": [
+  "Sa, questa è una piccola città. Non abbiamo molti visitatori.",
+  "È nuova di qui?",
+  "Sì, io e mio marito abbiamo appena comprato la vecchia tenuta Carnovasch.",
+  "La stiamo ristrutturando un po'.",
+  "La tenuta Carnovasch?",
+  "Allora siete voi quelli che si sono trasferiti lì?"
+ ],
+ "2844": [
+  "Ma aspetti, perché tutti restano così scioccati quando dico",
+  "che ho comprato quel posto?",
+  "Cos'ha che non va?"
+ ],
+ "2845": [
+  "Non lo sa?",
+  "Cosa?",
+  "Quel posto è infestato.",
+  "Infestato?",
+  "Shh, non così forte."
+ ],
+ "2846": [
+  "Dicono che sia infestato dal fantasma di quel mago, uh, come",
+  "si chiamava, uh...",
+  "Carno?",
+  "Sì, proprio lui.",
+  "Dicono che una notte lì sia morto di morte violenta, insieme a",
+  "sua moglie.",
+  "È successo quasi cent'anni fa.",
+  "Ma ancora oggi lì succedono cose strane."
+ ],
+ "2847": [
+  "Tipo cosa?",
+  "Beh, non so",
+  "di preciso, ma sa, io non mi interesso di queste cose.",
+  "Però se vuole saperne di più, c'è questo vecchio",
+  "tizio.",
+  "Si chiama Malcolm.",
+  "Vive fuori città, un po' più in là.",
+  "In realtà da ragazzo viveva con Carno.",
+  "Da ragazzo?",
+  "Ma quanti anni ha questo tizio?",
+  "Non",
+  "lo vedo da parecchio, ma le dico, è",
+  "vecchio.",
+  "Avrà più di cent'anni.",
+  "E dice che viveva con Carno?",
+  "Così dicono."
+ ],
+ "2848": [
+  "Interessante.",
+  "Beh, grazie."
+ ],
+ "2849": [
+  "Harv.",
+  "Grazie, Harv. Sei stato molto utile. Mi informerò su questo",
+  "Malcolm.",
+  "Beh, buona fortuna."
+ ],
+ "2850": [
+  "Posso aiutarla?",
+  "Oh, non badi a me. Sto solo guardando.",
+  "Okay."
+ ],
+ "2857": [
+  "Ha detto cammei del Settecento o dell'Ottocento?",
+  "Purtroppo al momento non ne ho, ma ho dei gioielli antichi",
+  "molto belli, se le va di..."
+ ],
+ "2858": [
+  "Grazie."
+ ],
+ "2861": [
+  "Uh-huh.",
+  "Capisco.",
+  "Capisco.",
+  "Capisco. Bene, terrò gli occhi aperti per eventuali cammei di quel",
+  "tipo. E ha detto che pagherebbe bene? Va",
+  "bene. La richiamerò di sicuro se trovo qualcosa.",
+  "Prego. Arrivederci."
+ ],
+ "2862": [
+  "Salve.",
+  "Salve.",
+  "Vede qualcosa che le piace?",
+  "Oh, sto solo guardando, grazie.",
+  "Faccia pure con calma, cara.",
+  "Sono qui se ha domande.",
+  "Okay.",
+  "Grazie."
+ ],
+ "2880": [
+  "Mi scusi.",
+  "Sì?",
+  "Vede quel bellissimo crocifisso nella vetrina laggiù?",
+  "Sì.",
+  "Mi chiedevo quanto ne chiede.",
+  "È un pezzo meraviglioso, vero?",
+  "Sì."
+ ],
+ "2882": [
+  "Questo crocifisso in particolare non è molto antico, solo dell'inizio",
+  "dell'Ottocento, ma è un pezzo raro, fatto di titanio, un",
+  "metallo appena scoperto all'epoca.",
+  "Non sapevo che facessero gioielli in titanio.",
+  "Di norma no. Ed è proprio questo che lo rende un",
+  "pezzo così raro.",
+  "È interessante.",
+  "Allora, quanto costa?",
+  "Oh, non molto considerando la rarità. Solo 2.200.",
+  "Così tanto?",
+  "È più di quanto possa permettermi adesso.",
+  "Beh, in tal caso mi chiami se ha bisogno di altra assistenza."
+ ],
+ "2885": [
+  "Grazie."
+ ],
+ "2890": [
+  "Ehm, signora?",
+  "Sì?",
+  "Salve, sono Adrienne Delaney.",
+  "Mi sono appena trasferita da Boston.",
+  "Ehm, mi chiedevo se poteva dirmi..."
+ ],
+ "2891": [
+  "Ha detto che si chiama Adrienne Delaney?",
+  "Non sarà mica una scrittrice?",
+  "Sì, lo sono. Perché me lo chiede?",
+  "Oh, ho adorato il suo giallo, Blue Moon Rising.",
+  "Non sono riuscita a smettere di leggerlo per una settimana.",
+  "Posso avere un autografo?",
+  "Sì, certo."
+ ]
+}

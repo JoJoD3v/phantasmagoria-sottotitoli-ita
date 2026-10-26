@@ -1,0 +1,7 @@
+1
+00:00:02,260 --> 00:00:02,800
+Accidenti.
+
+2
+00:00:04,300 --> 00:00:05,900
+Dev'essere apribile solo dall'altro lato.

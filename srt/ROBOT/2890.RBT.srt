@@ -1,0 +1,19 @@
+1
+00:00:01,550 --> 00:00:02,530
+Ehm, signora?
+
+2
+00:00:03,030 --> 00:00:03,530
+Sì?
+
+3
+00:00:03,790 --> 00:00:05,590
+Salve, sono Adrienne Delaney.
+
+4
+00:00:06,070 --> 00:00:07,430
+Mi sono appena trasferita da Boston.
+
+5
+00:00:08,030 --> 00:00:10,430
+Ehm, mi chiedevo se poteva dirmi...

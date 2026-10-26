@@ -1,0 +1,11 @@
+1
+00:00:00,240 --> 00:00:04,220
+Ho molto lavoro da fare. Devo vedere un altro cliente.
+
+2
+00:00:05,240 --> 00:00:06,440
+Me lo immagino.
+
+3
+00:00:07,480 --> 00:00:08,200
+Beh, grazie.

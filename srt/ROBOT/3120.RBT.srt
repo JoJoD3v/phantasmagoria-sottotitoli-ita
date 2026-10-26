@@ -1,0 +1,19 @@
+1
+00:00:03,280 --> 00:00:04,540
+Tesoro, ti senti un po' meglio?
+
+2
+00:00:05,080 --> 00:00:06,880
+Un po'. Vattene.
+
+3
+00:00:07,280 --> 00:00:08,820
+Hai preso un'aspirina?
+
+4
+00:00:08,860 --> 00:00:10,540
+Sì. Lasciami in pace.
+
+5
+00:00:11,980 --> 00:00:13,180
+Be', va bene. D'accordo.

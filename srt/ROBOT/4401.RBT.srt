@@ -1,0 +1,15 @@
+1
+00:00:01,170 --> 00:00:03,145
+Sì, è laggiù.
+
+2
+00:00:04,470 --> 00:00:06,270
+Be', puoi mostrarmi la strada?
+
+3
+00:00:07,990 --> 00:00:11,030
+Be', il sentiero è tutto franato.
+
+4
+00:00:11,850 --> 00:00:14,550
+Di solito io ci salto sopra.

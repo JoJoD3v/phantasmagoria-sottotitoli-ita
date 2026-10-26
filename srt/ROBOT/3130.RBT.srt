@@ -1,0 +1,11 @@
+1
+00:00:05,940 --> 00:00:06,760
+Ti senti meglio?
+
+2
+00:00:08,240 --> 00:00:10,280
+Sì, finché non sei arrivata tu.
+
+3
+00:00:12,440 --> 00:00:14,480
+Ah sì? Be', vaffanculo, Don.

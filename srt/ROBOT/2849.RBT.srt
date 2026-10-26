@@ -1,0 +1,15 @@
+1
+00:00:00,000 --> 00:00:00,520
+Harv.
+
+2
+00:00:00,540 --> 00:00:04,760
+Grazie, Harv. Sei stato molto utile. Mi informerò su questo
+
+3
+00:00:04,760 --> 00:00:05,360
+Malcolm.
+
+4
+00:00:07,280 --> 00:00:08,760
+Beh, buona fortuna.

@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:01,080
+Dio, stai bene?
+
+2
+00:00:01,440 --> 00:00:04,740
+Sì, mi è scivolato il cacciavite. Maledetto scarico.
+
+3
+00:00:04,960 --> 00:00:05,640
+Fammi vedere.
+
+4
+00:00:06,240 --> 00:00:08,420
+Sto bene, davvero.
+
+5
+00:00:11,890 --> 00:00:15,370
+Sai cosa mi servirebbe? Del disgorgante. Ce l'abbiamo?
+
+6
+00:00:16,350 --> 00:00:17,510
+Non credo.

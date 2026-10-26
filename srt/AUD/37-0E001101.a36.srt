@@ -1,0 +1,3 @@
+1
+00:00:00,000 --> 00:00:02,220
+Presto, mostra a Don il pupazzo di neve.

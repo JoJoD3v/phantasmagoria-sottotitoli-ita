@@ -1,0 +1,3 @@
+1
+00:00:00,000 --> 00:00:04,320
+Non puoi scendere quelle scale buie della dispensa senza una luce.

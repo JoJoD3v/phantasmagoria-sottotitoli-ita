@@ -1,0 +1,35 @@
+1
+00:00:01,300 --> 00:00:02,300
+C'è una cosa.
+
+2
+00:00:04,690 --> 00:00:05,190
+Sì?
+
+3
+00:00:06,490 --> 00:00:06,990
+Le chiavi.
+
+4
+00:00:07,990 --> 00:00:10,910
+È sicuro di aver dato a mio marito tutte le chiavi della tenuta
+
+5
+00:00:10,910 --> 00:00:11,410
+Carnovasch?
+
+6
+00:00:12,030 --> 00:00:13,830
+Ci sono delle porte chiuse a chiave.
+
+7
+00:00:13,930 --> 00:00:15,230
+Gli ho dato tutto quello che avevo.
+
+8
+00:00:15,830 --> 00:00:18,750
+Ma se non mi crede, perché non controlla di persona?
+
+9
+00:00:19,670 --> 00:00:20,730
+Beh, credo che lo farò.

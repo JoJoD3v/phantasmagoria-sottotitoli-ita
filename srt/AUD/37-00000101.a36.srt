@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:05,080
+Sono il custode ufficiale dei suggerimenti. Osservo ogni tua mossa.
+
+2
+00:00:05,860 --> 00:00:11,000
+Chiedimi un indizio se sei irrimediabilmente bloccata, ma usami con parsimonia.
+
+3
+00:00:11,020 --> 00:00:13,740
+Troppi suggerimenti possono rovinare il gioco.

@@ -1,0 +1,7 @@
+1
+00:00:01,010 --> 00:00:02,090
+Dio, che orrore!
+
+2
+00:00:05,010 --> 00:00:07,630
+Magari quegli uomini erano solo sbadati.

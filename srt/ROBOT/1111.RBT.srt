@@ -1,0 +1,19 @@
+1
+00:00:00,920 --> 00:00:01,420
+Ciao
+
+2
+00:00:05,020 --> 00:00:06,260
+tesoro. Scusa.
+
+3
+00:00:09,010 --> 00:00:12,485
+Stai bene? Sì. Mi hai spaventato.
+
+4
+00:00:13,970 --> 00:00:17,570
+Sto ancora lavorando a questo stupido scarico. Forse è meglio che
+
+5
+00:00:17,570 --> 00:00:18,530
+smetta prima di fare altri danni.

@@ -1,0 +1,227 @@
+diff --git a/engines/sci/graphics/frameout.cpp b/engines/sci/graphics/frameout.cpp
+index bd640ae9..5b693143 100644
+--- a/engines/sci/graphics/frameout.cpp
++++ b/engines/sci/graphics/frameout.cpp
+@@ -487,6 +487,8 @@ void GfxFrameout::frameOut(const bool shouldShowBits, const Common::Rect &eraseR
+ 		robotPlayer.doRobot();
+ 	}
+ 
++	g_sci->_audio32->updateSubtitles();
++
+ 	// SSCI allocated these as static arrays of 100 pointers to
+ 	// ScreenItemList / RectList
+ 	_screenItemLists.resize(_planes.size());
+diff --git a/engines/sci/sound/audio32.cpp b/engines/sci/sound/audio32.cpp
+index 995d1dbf..85a6ee52 100644
+--- a/engines/sci/sound/audio32.cpp
++++ b/engines/sci/sound/audio32.cpp
+@@ -29,6 +29,7 @@
+ #include "audio/timestamp.h"        // for Timestamp
+ #include "common/config-manager.h"  // for ConfMan
+ #include "common/endian.h"          // for MKTAG
++#include "common/file.h"            // for File::exists
+ #include "common/memstream.h"       // for MemoryReadStream
+ #include "common/str.h"             // for String
+ #include "common/stream.h"          // for SeekableReadStream
+@@ -750,6 +751,58 @@ bool Audio32::stopRobotAudio() {
+ #pragma mark -
+ #pragma mark Playback
+ 
++void Audio32::startSubtitles(const ResourceId resourceId) {
++	Common::String fileName;
++	if (resourceId.getType() == kResourceTypeAudio36) {
++		fileName = Common::String::format("%u-%08X.a36.srt", resourceId.getNumber(), resourceId.getTuple());
++	} else if (resourceId.getType() == kResourceTypeAudio) {
++		fileName = Common::String::format("%u.aud.srt", resourceId.getNumber());
++	} else {
++		return;
++	}
++
++	if (!Common::File::exists(Common::Path(fileName))) {
++		return;
++	}
++
++	if (_subtitles.isLoaded()) {
++		_subtitles.close();
++	}
++
++	_subtitles.loadSRTFile(Common::Path(fileName));
++	if (!_subtitles.isLoaded()) {
++		return;
++	}
++	_subtitlesId = resourceId;
++
++	const int16 overlayWidth = g_system->getOverlayWidth();
++	const int16 overlayHeight = g_system->getOverlayHeight();
++	_subtitles.setBBox(Common::Rect(20, overlayHeight * 58 / 100, overlayWidth - 20, overlayHeight * 76 / 100));
++	_subtitles.setColor(0xff, 0xff, 0xff);
++	_subtitles.setFont("LiberationSans-Regular.ttf");
++}
++
++void Audio32::updateSubtitles() {
++	if (!_subtitles.isLoaded()) {
++		return;
++	}
++
++	const int16 position = getPosition(_subtitlesId);
++	if (position < 0) {
++		// Speech finished
++		_subtitles.close();
++		g_system->hideOverlay();
++		return;
++	}
++
++	const bool reshow = !g_system->isOverlayVisible();
++	if (reshow) {
++		g_system->clearOverlay();
++		g_system->showOverlay(false);
++	}
++	_subtitles.drawSubtitle(position * 1000 / 60, reshow);
++}
++
+ uint16 Audio32::play(int16 channelIndex, const ResourceId resourceId, const bool autoPlay, const bool loop, const int16 volume, const reg_t soundNode, const bool monitor) {
+ 	Common::StackLock lock(_mutex);
+ 
+@@ -776,6 +829,8 @@ uint16 Audio32::play(int16 channelIndex, const ResourceId resourceId, const bool
+ 		return 0;
+ 	}
+ 
++	startSubtitles(resourceId);
++
+ 	// SSCI normally searches in this order:
+ 	//
+ 	// For Audio36:
+diff --git a/engines/sci/sound/audio32.h b/engines/sci/sound/audio32.h
+index ee095294..a9f47910 100644
+--- a/engines/sci/sound/audio32.h
++++ b/engines/sci/sound/audio32.h
+@@ -32,6 +32,7 @@
+ #include "sci/engine/state.h"      // for EngineState
+ #include "sci/engine/vm_types.h"   // for reg_t, NULL_REG
+ #include "sci/video/robot_decoder.h" // for RobotAudioStream
++#include "video/subtitles.h"       // for Video::Subtitles
+ 
+ namespace Sci {
+ class Console;
+@@ -462,6 +463,24 @@ public:
+ 	 */
+ 	uint16 play(int16 channelIndex, const ResourceId resourceId, const bool autoPlay, const bool loop, const int16 volume, const reg_t soundNode, const bool monitor);
+ 
++	/**
++	 * Draws the fan-made SRT subtitles of the speech resource currently
++	 * playing, if any. Called once per frame.
++	 */
++	void updateSubtitles();
++
++private:
++	/**
++	 * Loads fan-made SRT subtitles for a speech resource:
++	 * `<map>-<tuple %08X>.a36.srt` for Audio36, `<number>.aud.srt` for Audio.
++	 */
++	void startSubtitles(const ResourceId resourceId);
++
++	Video::Subtitles _subtitles;
++	ResourceId _subtitlesId;
++
++public:
++
+ 	/**
+ 	 * Resumes playback of a paused audio channel, or of the entire audio
+ 	 * player.
+diff --git a/engines/sci/video/robot_decoder.cpp b/engines/sci/video/robot_decoder.cpp
+index 0da109dc..6a97af90 100644
+--- a/engines/sci/video/robot_decoder.cpp
++++ b/engines/sci/video/robot_decoder.cpp
+@@ -27,6 +27,7 @@
+ #include "common/platform.h"         // for Platform::kPlatformMacintosh
+ #include "common/rational.h"         // for operator*, Rational
+ #include "common/str.h"              // for String
++#include "common/system.h"           // for g_system (subtitle overlay)
+ #include "common/stream.h"           // for SeekableReadStream, SeekableReadStreamEndianWrapper
+ #include "common/textconsole.h"      // for error, warning
+ #include "common/types.h"            // for Flag::NO, Flag::YES
+@@ -580,6 +581,26 @@ void RobotDecoder::open(const GuiResourceId robotId, const reg_t plane, const in
+ 	_priority = priority;
+ 	initVideo(x, y, scale, plane, hasPalette, paletteSize);
+ 	initRecordAndCuePositions();
++	initSubtitles(robotId);
++}
++
++void RobotDecoder::initSubtitles(const GuiResourceId robotId) {
++	// Try load fan-made SRT subtitles for current robot
++	_subtitles.loadSRTFile(Common::Path(Common::String::format("%d.rbt.srt", robotId)));
++	if (!_subtitles.isLoaded()) {
++		return;
++	}
++
++	// Robots play during normal gameplay, so the text goes in the lower part
++	// of the game area instead of over the whole screen
++	const int16 overlayWidth = g_system->getOverlayWidth();
++	const int16 overlayHeight = g_system->getOverlayHeight();
++	_subtitles.setBBox(Common::Rect(20, overlayHeight * 58 / 100, overlayWidth - 20, overlayHeight * 76 / 100));
++	_subtitles.setColor(0xff, 0xff, 0xff);
++	_subtitles.setFont("LiberationSans-Regular.ttf");
++
++	g_system->clearOverlay();
++	g_system->showOverlay(false);
+ }
+ 
+ void RobotDecoder::close() {
+@@ -614,6 +635,11 @@ void RobotDecoder::close() {
+ 		_audioList.reset();
+ 	}
+ 
++	if (_subtitles.isLoaded()) {
++		g_system->hideOverlay();
++	}
++	_subtitles.close();
++
+ 	_robotId = -1;
+ 	_planeId = NULL_REG;
+ 	_plane = nullptr;
+@@ -1268,6 +1294,15 @@ void RobotDecoder::frameNowVisible() {
+ 		return;
+ 	}
+ 
++	if (_subtitles.isLoaded()) {
++		// The overlay is hidden again when returning from the GMM
++		const bool reshow = !g_system->isOverlayVisible();
++		if (reshow) {
++			g_system->showOverlay(false);
++		}
++		_subtitles.drawSubtitle(_currentFrameNo * 1000 / _normalFrameRate, reshow);
++	}
++
+ 	if (_syncFrame) {
+ 		_syncFrame = false;
+ 		if (_hasAudio) {
+diff --git a/engines/sci/video/robot_decoder.h b/engines/sci/video/robot_decoder.h
+index 2df49855..bfe21844 100644
+--- a/engines/sci/video/robot_decoder.h
++++ b/engines/sci/video/robot_decoder.h
+@@ -31,6 +31,7 @@
+ #include "sci/engine/vm_types.h"         // for NULL_REG, reg_t
+ #include "sci/graphics/helpers.h"        // for GuiResourceId
+ #include "sci/graphics/screen_item32.h"  // for ScaleInfo, ScreenItem (ptr o...
++#include "video/subtitles.h"             // for Video::Subtitles
+ 
+ namespace Common { class SeekableReadStreamEndian; }
+ namespace Sci {
+@@ -469,6 +470,17 @@ private:
+ 	 */
+ 	GuiResourceId _robotId;
+ 
++	/**
++	 * Fan-made SRT subtitles for the current robot (`<robotId>.rbt.srt`).
++	 */
++	Video::Subtitles _subtitles;
++
++	/**
++	 * Loads SRT subtitles for the given robot, if any, and shows the overlay
++	 * they are drawn on.
++	 */
++	void initSubtitles(const GuiResourceId robotId);
++
+ #pragma mark Constants
+ public:
+ 	/**

@@ -1,0 +1,11 @@
+1
+00:00:03,820 --> 00:00:06,260
+Questi vecchi tubi sono proprio intasati.
+
+2
+00:00:06,340 --> 00:00:07,500
+Posso fare qualcosa?
+
+3
+00:00:08,740 --> 00:00:10,060
+Sì, passami quella chiave inglese.

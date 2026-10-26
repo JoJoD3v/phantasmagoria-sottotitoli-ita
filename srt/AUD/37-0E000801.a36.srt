@@ -1,0 +1,3 @@
+1
+00:00:00,000 --> 00:00:02,680
+Trova il pannello segreto sulla parete a destra della porta.

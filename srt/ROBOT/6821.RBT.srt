@@ -1,0 +1,7 @@
+1
+00:00:00,110 --> 00:00:00,850
+Ehi tesoro,
+
+2
+00:00:02,640 --> 00:00:07,120
+vuoi un po' di pizza con un po' di salsa extra?

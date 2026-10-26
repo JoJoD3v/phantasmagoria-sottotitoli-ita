@@ -1,0 +1,37 @@
+[
+{
+"start": 0.05,
+"end": 1.13,
+"text": "Excuse me."
+},
+{
+"start": 1.33,
+"end": 1.81,
+"text": "Yes?"
+},
+{
+"start": 2.25,
+"end": 5.29,
+"text": "You know that beautiful crucifix in the display case over there?"
+},
+{
+"start": 5.51,
+"end": 5.75,
+"text": "Yes."
+},
+{
+"start": 6.15,
+"end": 8.03,
+"text": "I was wondering how much you're asking for it."
+},
+{
+"start": 8.15,
+"end": 10.29,
+"text": "It is a lovely piece, isn't it?"
+},
+{
+"start": 10.39,
+"end": 10.83,
+"text": "Yes."
+}
+]

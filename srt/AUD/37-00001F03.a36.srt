@@ -1,0 +1,15 @@
+1
+00:00:00,000 --> 00:00:04,980
+Grazie. Quei momenti inquietanti ora ti saranno nascosti.
+
+2
+00:00:05,220 --> 00:00:09,745
+Ma attenta: non dimenticare la password. Se mai
+
+3
+00:00:10,580 --> 00:00:15,240
+ritrovassi il coraggio, dovrai inserirla di nuovo. Altrimenti,
+
+4
+00:00:15,460 --> 00:00:17,920
+dovrai reinstallare il gioco.

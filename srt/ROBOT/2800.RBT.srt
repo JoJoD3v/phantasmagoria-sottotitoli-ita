@@ -1,0 +1,7 @@
+1
+00:00:02,320 --> 00:00:04,360
+Oh, ho dimenticato di portare i soldi.
+
+2
+00:00:06,240 --> 00:00:08,080
+Beh, stasera siamo aperti fino alle 5:30.

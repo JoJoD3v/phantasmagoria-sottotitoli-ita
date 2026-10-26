@@ -1,0 +1,3 @@
+1
+00:00:05,870 --> 00:00:08,250
+È troppo lontano. Sarebbe un salto lungo.

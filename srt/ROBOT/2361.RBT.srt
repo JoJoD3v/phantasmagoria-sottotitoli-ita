@@ -1,0 +1,7 @@
+1
+00:00:00,110 --> 00:00:00,710
+Aspetta!
+
+2
+00:00:02,670 --> 00:00:04,650
+Non capisco. Ho fatto qualcosa di sbagliato?

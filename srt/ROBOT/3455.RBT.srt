@@ -1,0 +1,15 @@
+1
+00:00:01,550 --> 00:00:02,610
+Che ne dice, eh?
+
+2
+00:00:05,010 --> 00:00:08,010
+Lavoreremo gratis. Solo vitto e alloggio.
+
+3
+00:00:10,050 --> 00:00:14,350
+Su. Non ci cacci fuori al freddo. Non abbiamo altro posto dove
+
+4
+00:00:14,350 --> 00:00:14,850
+andare.

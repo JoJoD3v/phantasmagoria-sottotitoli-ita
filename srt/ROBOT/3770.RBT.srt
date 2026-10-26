@@ -1,0 +1,3 @@
+1
+00:00:05,900 --> 00:00:08,120
+Il vampiro di John Polidori.

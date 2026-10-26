@@ -1,0 +1,7 @@
+1
+00:00:01,610 --> 00:00:02,150
+Vuole
+
+2
+00:00:03,560 --> 00:00:05,480
+dare un'altra occhiata alle mie opere?

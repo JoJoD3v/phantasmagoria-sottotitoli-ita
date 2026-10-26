@@ -1,0 +1,15 @@
+1
+00:00:01,060 --> 00:00:01,900
+Che stai cucinando?
+
+2
+00:00:02,420 --> 00:00:04,580
+Stufato di coniglio. Ti fermi a cena?
+
+3
+00:00:04,900 --> 00:00:06,540
+Oh, no grazie. Ho già mangiato.
+
+4
+00:00:06,920 --> 00:00:07,580
+Come vuoi.
